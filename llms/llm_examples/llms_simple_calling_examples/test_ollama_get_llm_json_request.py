@@ -18,7 +18,7 @@ ollama.Client._request_stream = patched_request_stream
 # Now use the ollama client as usual
 client = ollama.Client()
 
-model = "llama3"
+model = "llama3.1"
 
 prompt = "What is the capital city of France?"
 system_message = """ 
