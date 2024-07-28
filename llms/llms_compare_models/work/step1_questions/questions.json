@@ -1,0 +1,156 @@
+{
+    "title": "Questions for llms",
+    "llm_question_generator": "gpt-4o",
+    "questions": [
+        {
+            "question_id": 0,
+            "question": "Question:\nExplain how the implementation of quantum algorithms can potentially disrupt current cryptographic systems, particularly focusing on Shor's algorithm and its implications on RSA encryption. Additionally, discuss the countermeasures being developed, such as post-quantum cryptography, and evaluate their effectiveness.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a detailed overview of how quantum computing differs from classical computing.\n2. Specify the mechanics of Shor's algorithm and its application in breaking RSA encryption.\n3. Assess the current state of post-quantum cryptographic approaches, highlighting any specific algorithms being considered.\n4. Evaluate the practicality and timeline for quantum computers to pose a real threat to existing encryption methods.\n5. Include any potential limitations or challenges faced by post-quantum cryptographic solutions."
+        },
+        {
+            "question_id": 1,
+            "question": "Question:\nAnalyze the potential geopolitical implications of a hypothetical scenario where a major energy resource, such as oil or natural gas, is discovered and developed in a previously unexploited region like the Arctic. Address the following sub-questions in your analysis:",
+            "instructions": "1. How might this discovery impact the global energy market and current leading energy exporters?\n2. What environmental considerations and challenges would arise from the extraction and transportation of this resource in the Arctic?\n3. What are the potential economic benefits and risks for the countries bordering the Arctic?\n4. How could this development influence international relations and territorial disputes among Arctic and non-Arctic nations?"
+        },
+        {
+            "question_id": 2,
+            "question": "Question:\nWhat are the potential economic, environmental, and social impacts of implementing a carbon tax in a highly industrialized country with diverse energy sources, and how might these impacts differ across various sectors such as manufacturing, transportation, and agriculture?",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the economic impacts, considering both short-term and long-term effects on industries and consumer prices.\n2. Evaluate the environmental benefits and potential drawbacks, including the reduction of greenhouse gas emissions and any unintended consequences.\n3. Assess social impacts, focusing on job displacement, changes in energy costs for households, and overall public health.\n4. Compare the impacts across different sectors, detailing specific challenges and opportunities unique to manufacturing, transportation, and agriculture.\n5. Propose potential policies or measures to mitigate any negative consequences while maximizing the benefits of a carbon tax."
+        },
+        {
+            "question_id": 3,
+            "question": "Question:\nAnalyze the economic impact of a hypothetical scenario where the global supply chain is disrupted for six months due to a natural disaster affecting major trade routes. Discuss both short-term and long-term effects on international trade, consumer prices, and employment in the affected regions.",
+            "instructions": "Instructions how to deal with this question:\n1. Define specific natural disaster and affected trade routes.\n2. Examine immediate repercussions on international trade flows.\n3. Evaluate short-term economic effects on consumer prices and availability of goods.\n4. Investigate potential long-term structural changes in global supply chains.\n5. Assess employment impact in both affected and indirectly impacted regions.\n6. Provide real-world examples or historical analogs to support your analysis."
+        },
+        {
+            "question_id": 4,
+            "question": "Question:\nExplain the implications of G\u00f6del's incompleteness theorems on modern computational theory, particularly in relation to the limits of machine learning algorithms and artificial intelligence.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a brief overview of G\u00f6del's incompleteness theorems.\n2. Discuss how these theorems illustrate limitations within formal systems.\n3. Analyze the impact of these limitations on modern computational theory.\n4. Explore specific examples within machine learning and artificial intelligence where G\u00f6del's theorems might influence or limit development.\n5. Include references to contemporary research that addresses or tries to circumvent these limitations."
+        },
+        {
+            "question_id": 5,
+            "question": "Question:\nDiscuss the implications of G\u00f6del's Incompleteness Theorems on the philosophy of mathematics and how it relates to the limitations of formal axiomatic systems, providing specific examples from both theoretical mathematics and computational theory.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a detailed explanation of G\u00f6del's Incompleteness Theorems, including their formal statements.\n2. Analyze how these theorems challenged the formalist view in the philosophy of mathematics.\n3. Illustrate the impact with examples from theoretical mathematics, such as set theory or number theory.\n4. Explore the connection to computational theory, particularly how these theorems have influenced the development of computer science and the understanding of algorithmic limitations."
+        },
+        {
+            "question_id": 6,
+            "question": "Question:\nGiven the data set of daily temperatures over a 10-year span for three different cities: City A, City B, and City C, consider how climate change might be affecting these regions differently. Your task is to analyze the provided data, identify trends regarding rising or falling temperatures, and compare the results among the three cities. Include potential external factors such as geographic location, urbanization, and economic development that might influence these trends.",
+            "instructions": "Instructions how to deal with this question:\n1. Collect and preprocess the temperature data for City A, City B, and City C spanning the last 10 years.\n2. Perform a trend analysis on the temperature data to determine whether each city has experienced a warming or cooling trend over the specified period.\n3. Investigate and discuss any external factors (geographic location, urbanization, economic development) that could potentially influence the observed temperature trends for each city.\n4. Compare and contrast the temperature trends and influencing factors among City A, City B, and City C, providing a comprehensive summary of how climate change may be impacting each city differently.\n5. Ensure to use statistical tools or software for data analysis, and present your findings in graphs, tables, and a written summary for clarity."
+        },
+        {
+            "question_id": 7,
+            "question": "Question: Explain the potential impact of implementing quantum computing technologies on current cryptographic methods used for securing internet communications. Provide a detailed analysis, including possible advantages and disadvantages, and suggest at least two cryptographic approaches that could be developed to counteract these impacts.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a comprehensive explanation of quantum computing and its principles.\n2. Analyze how quantum computing could potentially break current cryptographic methods like RSA and ECC.\n3. Discuss both the advantages (e.g., faster computations, new problem-solving capabilities) and disadvantages (e.g., security vulnerabilities, high implementation costs) of quantum computing.\n4. Suggest two cryptographic approaches, such as quantum-resistant algorithms, that could be used to mitigate the impact of quantum computing on internet security.\n5. Include references to recent research and developments in the field to support your analysis."
+        },
+        {
+            "question_id": 8,
+            "question": "Question:\nExplain the economic, social, and environmental impacts of transitioning from a fossil fuel-based energy system to a renewable energy-based system, and how these impacts vary between developed and developing countries.",
+            "instructions": "Instructions how to deal with this question:\n1. Identify and outline the key economic impacts, including job creation, industry shifts, and long-term financial implications.\n2. Discuss the social impacts, such as changes in community livelihoods, health benefits, and potential displacement of workers.\n3. Examine the environmental impacts, including reductions in greenhouse gas emissions, changes in land use, and potential environmental downsides.\n4. Compare and contrast how these impacts differ or are more pronounced between developed and developing countries."
+        },
+        {
+            "question_id": 9,
+            "question": "Question:\nHow has the evolution of quantum computing impacted the field of cryptography, particularly in terms of current encryption methodologies, and what are the potential future implications for cybersecurity in a world transitioning to quantum-resistant algorithms?",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the historical advancements in quantum computing and their milestones.\n2. Research how traditional cryptographic methods are vulnerable to quantum attacks.\n3. Examine the development and implementation of quantum-resistant algorithms.\n4. Discuss the potential future landscape of cybersecurity in the quantum era, including both opportunities and challenges.\n5. Provide examples of industries or applications that might be most affected by this transition."
+        },
+        {
+            "question_id": 10,
+            "question": "Question:\nExplain the concept of General Relativity and how it revolutionized classical mechanics, detailing the mathematical framework involved and its key implications for our understanding of space-time.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a thorough explanation of General Relativity, including its origins and fundamental principles.\n2. Describe the mathematical framework, with a focus on the Einstein Field Equations.\n3. Discuss the key implications of General Relativity on our understanding of space-time, such as time dilation, black holes, and gravitational waves.\n4. Compare and contrast General Relativity with classical mechanics, highlighting major differences and advancements.\n5. Use examples or thought experiments, such as the bending of light by gravity, to illustrate key concepts."
+        },
+        {
+            "question_id": 11,
+            "question": "Question:\nAnalyze the economic impact of climate change on coastal cities, considering the effects on real estate markets, insurance industries, and local economies over the next 50 years. Provide data-backed projections and discuss possible adaptation strategies that could mitigate adverse outcomes.",
+            "instructions": "Instructions how to deal with this question:\n1. Research historical data on climate change and its effects on coastal cities.\n2. Use economic models to project future impacts on real estate markets, insurance industries, and local economies.\n3. Incorporate data from scientific studies on projected sea level rise, frequency of extreme weather events, and other relevant climate factors.\n4. Evaluate potential adaptation strategies such as infrastructure improvements, zoning changes, and financial instruments.\n5. Present findings with a balanced view, acknowledging uncertainties and varied expert opinions."
+        },
+        {
+            "question_id": 12,
+            "question": "Question:\nExplain in detail the process and significance of the General Data Protection Regulation (GDPR) in the context of international law and its impact on multinational corporations, especially focusing on data transfer mechanisms, compliance challenges, and penalties for non-compliance.",
+            "instructions": "Instructions how to deal with this question:\n1. Start by providing a historical background on the GDPR and its adoption within the European Union.\n2. Discuss the core principles and objectives of the GDPR, emphasizing its role in data protection and privacy.\n3. Explain the various mechanisms for data transfer under the GDPR, including Standard Contractual Clauses (SCCs) and Binding Corporate Rules (BCRs).\n4. Outline the main compliance challenges faced by multinational corporations, including the legal, operational, and technical aspects.\n5. Analyze the enforcement measures and penalties imposed for non-compliance, including significant case studies or examples.\n6. Conclude with an assessment of the GDPR's global impact and its influence on data protection regulations in other jurisdictions."
+        },
+        {
+            "question_id": 13,
+            "question": "Question:\n        Explain the impact of Ren\u00e9 Descartes\u2019 philosophy on modern scientific methodology. Discuss specific principles he introduced and how they have been integrated into current practices in fields such as physics and computer science. Provide examples of how these influences have manifested in contemporary research or technological advancements.",
+            "instructions": "Instructions how to deal with this question:\n        1. Begin by outlining Ren\u00e9 Descartes\u2019 fundamental philosophical principles, focusing on his contributions to the scientific method.\n        2. Identify and elaborate on specific principles introduced by Descartes that have influenced modern scientific methodologies.\n        3. Discuss how these principles have been integrated into contemporary practice, providing examples from fields like physics and computer science.\n        4. Provide specific instances or case studies of how Descartes\u2019 influence is observable in current research or technological developments."
+        },
+        {
+            "question_id": 14,
+            "question": "Question:\nDescribe the potential socio-economic impacts of developing autonomous vehicle technology on urban areas, considering factors such as employment, transportation infrastructure, and environmental effects.",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the potential job displacement and creation in both the automotive and transportation sectors.\n2. Examine the necessary changes and investments in urban infrastructure to accommodate autonomous vehicles.\n3. Evaluate the environmental benefits or challenges introduced by the shift to autonomous vehicles.\n4. Consider the broader societal implications, such as changes in commuting patterns and accessibility for different demographics."
+        },
+        {
+            "question_id": 15,
+            "question": "Question:\nAnalyze the economic impacts of the 2008 global financial crisis on both developed and developing countries, focusing specifically on unemployment rates, GDP growth, and fiscal policies. Include a comparative analysis of at least two countries from each category.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a brief overview of the 2008 global financial crisis.\n2. Investigate the changes in unemployment rates in both developed and developing countries subsequent to the crisis.\n3. Examine the GDP growth trends in these countries post-2008.\n4. Analyze the fiscal policies implemented by two developed and two developing countries in response to the crisis.\n5. Compare and contrast the economic outcomes of these policies across the selected countries."
+        },
+        {
+            "question_id": 16,
+            "question": "Question:\nUsing Newton's laws of motion and considering air resistance as a drag force proportional to the square of the velocity, derive the terminal velocity for a spherical object falling through a fluid. Assume the object has mass \\( m \\), radius \\( r \\), and the fluid has density \\( \\rho \\) and dynamic viscosity \\( \\eta \\).",
+            "instructions": "Instructions how to deal with this question:\n1. Identify and apply Newton's second law to the object in the context of forces acting on it, including gravity, buoyancy, and drag force.\n2. Recognize that at terminal velocity, the net acceleration is zero, and hence the sum of the forces is zero.\n3. Use the drag force equation for a sphere, \\( F_d = \\frac{1}{2} C_d \\rho A v^2 \\), where \\( C_d \\) is the drag coefficient, \\( A \\) is the cross-sectional area, and \\( v \\) is the velocity, to set up the equation for terminal velocity.\n4. Solve for the terminal velocity by isolating \\( v_t \\) from the equilibrium condition where gravitational force is balanced by the sum of buoyant and drag forces.\n5. Include the effect of fluid density and dynamic viscosity in the drag coefficient \\( C_d \\) expression to fully represent the terminal velocity in the given fluid."
+        },
+        {
+            "question_id": 17,
+            "question": "Question:\nExplain the significance of the Higgs boson discovery in the context of the Standard Model of particle physics, and discuss the experimental methods used to detect it, including the challenges posed and how they were overcome.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide an overview of the Higgs boson and its role in the Standard Model.\n2. Explain the theoretical predictions about the Higgs boson prior to its discovery.\n3. Describe the experimental setup at the Large Hadron Collider (LHC) that led to the discovery of the Higgs boson.\n4. Discuss the data analysis techniques used in confirming the existence of the Higgs boson.\n5. Highlight the challenges faced by scientists in detecting the Higgs boson and the solutions they implemented to address these challenges.\n6. Reflect on the implications of this discovery for the future of particle physics."
+        },
+        {
+            "question_id": 18,
+            "question": "Question:\nAnalyze the economic impact of implementing a universal basic income (UBI) in a developed country, considering factors such as inflation, labor market dynamics, income distribution, and potential effects on public services.",
+            "instructions": "Instructions how to deal with this question:\n1. Define Universal Basic Income (UBI) and outline its primary objectives.\n2. Evaluate historical and contemporary case studies where UBI or similar programs have been implemented.\n3. Analyze the potential inflationary effects of UBI, including arguments from both proponents and critics.\n4. Assess the impact of UBI on labor market participation and productivity, considering changes in worker incentives and job satisfaction.\n5. Examine the redistribution of income and wealth that may result from UBI, factoring in socio-economic disparities.\n6. Discuss possible consequences of UBI on public services, such as healthcare, education, and welfare programs.\n7. Synthesize the findings and articulate a balanced conclusion on the viability and sustainability of UBI in a developed economy."
+        },
+        {
+            "question_id": 19,
+            "question": "Question:\nAnalyze the potential economic impacts of implementing a universal basic income (UBI) in a developed country. Discuss both the short-term and long-term effects on employment rates, consumer spending, government debt, and overall economic growth.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a definition and context for Universal Basic Income (UBI).\n2. Examine empirical evidence from countries or regions that have piloted similar programs.\n3. Evaluate the short-term economic impacts focusing on employment rates and consumer spending.\n4. Assess the long-term economic impacts on government debt and overall economic growth.\n5. Consider potential social consequences and how they might influence economic outcomes.\n6. Include any theoretical economic models that support your analysis.\n7. Conclude with a balanced view, summarizing both positive and negative outcomes."
+        },
+        {
+            "question_id": 20,
+            "question": "Question:\nHow does the concept of entropy in thermodynamics relate to the second law of thermodynamics, and what physical implications does this relationship have on the efficiency of heat engines?",
+            "instructions": "Instructions how to deal with this question:\n1. Define entropy in the context of thermodynamics.\n2. Explain the second law of thermodynamics.\n3. Describe how entropy relates to the second law.\n4. Discuss the implications of this relationship on the efficiency of heat engines."
+        },
+        {
+            "question_id": 21,
+            "question": "Question:\nAnalyze the economic implications of implementing a universal basic income (UBI) policy in a country with a mixed economy, considering factors such as inflation, employment rates, public welfare, and government debt.",
+            "instructions": "Instructions how to deal with this question:\n1. Define universal basic income (UBI) and a mixed economy.\n2. Evaluate the potential impact of UBI on inflation.\n3. Assess the effects of UBI on employment rates.\n4. Analyze how UBI might influence public welfare systems.\n5. Discuss the potential impact on government debt.\n6. Present a balanced argument with supporting evidence from existing studies or historical precedents."
+        },
+        {
+            "question_id": 22,
+            "question": "Question:\nAnalyze the impact of quantum computing on contemporary cryptographic techniques, particularly focusing on the potential vulnerabilities exposed by Shor's algorithm for both public-key and symmetric-key cryptography, and propose potential mitigations to secure cryptographic systems against quantum attacks.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a brief overview of quantum computing and Shor's algorithm.\n2. Explain the specific vulnerabilities that Shor's algorithm exposes in contemporary cryptographic techniques.\n3. Discuss the differences in impact on public-key cryptography versus symmetric-key cryptography.\n4. Propose detailed mitigations or alternative cryptographic techniques to secure systems against potential quantum attacks.\n5. Support your analysis with relevant examples, research, and projections for the future development of quantum-safe cryptography."
+        },
+        {
+            "question_id": 23,
+            "question": "Question:\nExplain the potential economic impacts of implementing a global carbon tax system on both developed and developing countries, considering the varying stages of industrialization, infrastructure, and technological advancements.",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the immediate and long-term economic effects on GDP for both developed and developing countries.\n2. Assess the potential influence on international trade and cross-border investments.\n3. Discuss how differing levels of infrastructure and technology might affect the ability of countries to adapt to a global carbon tax.\n4. Address potential socio-economic challenges, such as employment shifts and income inequality.\n5. Provide potential mitigation strategies to balance economic growth and environmental sustainability in both developed and developing countries."
+        },
+        {
+            "question_id": 24,
+            "question": "Question:\nAnalyze the socio-economic impacts of climate change on agricultural productivity in Sub-Saharan Africa, considering historical data, current trends, and future projections.",
+            "instructions": "Instructions how to deal with this question:\n1. Identify and summarize the major socio-economic impacts of climate change on agriculture in Sub-Saharan Africa.\n2. Utilize historical data to highlight changes in agricultural productivity over the past 50 years.\n3. Examine current trends in agricultural practices and climate conditions in the region.\n4. Discuss future projections and models on how climate change will affect agricultural productivity in Sub-Saharan Africa.\n5. Provide specific examples and case studies to support your analysis.\n6. Cite relevant academic sources, reports, and data to substantiate your claims.\n7. Include discussions on socio-political factors that exacerbate or mitigate these impacts."
+        },
+        {
+            "question_id": 25,
+            "question": "Question:\nAnalyze the geopolitical implications of the Belt and Road Initiative on small and medium-sized countries in Southeast Asia and discuss the potential economic and political dependencies that may arise as a result.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a comprehensive overview of the Belt and Road Initiative, including its goals and key projects in Southeast Asia.\n2. Identify and evaluate the economic benefits and risks for small and medium-sized countries in Southeast Asia participating in the initiative.\n3. Analyze potential political dependencies or influences that China may exert over participant countries as a consequence of their involvement in the Belt and Road Initiative.\n4. Use specific examples and case studies to support your analysis."
+        },
+        {
+            "question_id": 26,
+            "question": "Question:\nEvaluate the geopolitical, economic, and environmental implications of Arctic region melting, accounting for factors such as natural resource competition, indigenous population impacts, maritime boundary disputes, and global climate change policies.",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the geopolitical interests and activities of Arctic and non-Arctic states in light of melting icecaps.\n2. Assess the economic opportunities and challenges associated with newly accessible resources and trade routes.\n3. Discuss the environmental consequences of reduced ice and increased human activity in the Arctic region.\n4. Examine the effects on indigenous populations, considering their livelihoods, rights, and cultural heritage.\n5. Evaluate international efforts and policies aimed at addressing climate change and regulating activities in the Arctic."
+        },
+        {
+            "question_id": 27,
+            "question": "Question:\nExplain the significance of G\u00f6del's incompleteness theorems and discuss their implications for the foundations of mathematics and the limits of formal systems.",
+            "instructions": "Instructions how to deal with this question:\n1. Define G\u00f6del's incompleteness theorems, including both the first and second theorems.\n2. Elaborate on the proofs of these theorems and the key concepts involved, such as formal systems, consistency, and completeness.\n3. Analyze the philosophical and mathematical implications of the theorems, particularly how they impact our understanding of mathematics, logic, and computer science.\n4. Provide examples of how these theorems have influenced subsequent developments in various fields.\n5. Discuss any criticisms or limitations of G\u00f6del's work, as well as ongoing research related to the topic."
+        },
+        {
+            "question_id": 28,
+            "question": "Question:\nDescribe the underlying principles and real-world applications of the Nash Equilibrium in non-cooperative game theory, and illustrate with a detailed example involving at least three players making simultaneous decisions.",
+            "instructions": "Instructions how to deal with this question:\n1. Define the Nash Equilibrium in the context of non-cooperative game theory.\n2. Explain the key principles that constitute the Nash Equilibrium.\n3. Provide at least one real-world application where the Nash Equilibrium is observed.\n4. Construct a detailed scenario involving three players making decisions simultaneously, and demonstrate how the Nash Equilibrium is determined in that situation.\n5. Ensure all steps and reasoning are clearly articulated to show understanding."
+        },
+        {
+            "question_id": 29,
+            "question": "Question:\nWhat are the primary mechanisms by which CRISPR-Cas9 technology can be utilized to target and edit specific genomic sequences in living organisms, and what are the potential off-target effects and ethical considerations associated with its widespread use in human genetics?",
+            "instructions": "Instructions how to deal with this question:\n1. Explain the CRISPR-Cas9 mechanism, including how it identifies and binds to specific DNA sequences.\n2. Describe the process by which CRISPR-Cas9 induces genetic modifications.\n3. Discuss the potential off-target effects, such as unintended changes to the genome.\n4. Explore the ethical considerations involved in using CRISPR technology for genetic modifications in humans, including potential benefits and risks.\n5. Provide current real-world examples or studies related to CRISPR-Cas9 applications and their outcomes."
+        }
+    ]
+}

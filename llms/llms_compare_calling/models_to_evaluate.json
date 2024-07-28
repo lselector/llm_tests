@@ -1,0 +1,7 @@
+{
+    "models_to_evaluate": [
+        "qwen2:7b-instruct-q4_0", 
+        "llama3:8b-instruct-q4_0", 
+        "mistral:7b-instruct-v0.3-q4_0"
+    ]
+}
