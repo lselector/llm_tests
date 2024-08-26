@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This page was creating using ChatGPT -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chart.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .chart-container {
+      width: 400px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h3><a href="https://www.chartjs.org/docs/latest/samples/information.html" target = "_blank">Examples using Chart.js</a></h3>  
+  <div class="chart-container">
+    <h3>Line Chart</h3>
+    <canvas id="lineChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <h3>Pie Chart</h3>
+    <canvas id="pieChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <h3>Histogram</h3>
+    <canvas id="histogram"></canvas>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Line chart
+      const lineCtx = document.getElementById('lineChart').getContext('2d');
+      const lineChart = new Chart(lineCtx, {
+        type: 'line',
+        data: {
+          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+          datasets: [
+            {
+              label: 'Red Line',
+              data: [12, 19, 3, 5, 2, 3],
+              borderColor: 'rgba(255, 99, 132, 0.8)',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              tension: 0.1
+            },
+            {
+              label: 'Blue Line',
+              data: [4, 8, 12, 6, 9, 16],
+              borderColor: 'rgba(54, 162, 235, 0.8)',
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              tension: 0.1
+            }
+          ]
+        }
+      });
+
+      // Pie chart
+      const pieCtx = document.getElementById('pieChart').getContext('2d');
+      const pieChart = new Chart(pieCtx, {
+        type: 'pie',
+        data: {
+            labels: [
+                    'Red',
+                    'Green',
+                    'Yellow',
+                    'Grey',
+                    'Blue'
+                ],
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [11, 16, 7, 3, 14],
+                    backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(75, 192, 192)',
+                    'rgb(255, 205, 86)',
+                    'rgb(201, 203, 207)',
+                    'rgb(54, 162, 235)'
+                    ]
+                }]
+        }
+      });
+
+      // Histogram (Bar chart)
+      const histogramCtx = document.getElementById('histogram').getContext('2d');
+      const histogram = new Chart(histogramCtx, {
+        type: 'bar',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Cyan', 'Grey'],
+          datasets: [
+            {
+              label: 'Frequency',
+              data: [12, 19, 3, 5, 2, 8, 10],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 205, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(201, 203, 207, 0.2)'
+              ],
+                borderColor: [
+                'rgb(255, 99, 132)',
+                'rgb(255, 159, 64)',
+                'rgb(255, 205, 86)',
+                'rgb(75, 192, 192)',
+                'rgb(54, 162, 235)',
+                'rgb(153, 102, 255)',
+                'rgb(201, 203, 207)'
+                ],
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+

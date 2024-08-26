@@ -1,0 +1,156 @@
+{
+    "title": "Questions for llms",
+    "llm_question_generator": "gpt-4-turbo",
+    "questions": [
+        {
+            "question_id": 0,
+            "question": "Question:\nIn the context of global energy consumption and sustainability, how do different energy policies in the United States, European Union, and China impact their respective commitments to the Paris Agreement targets? Additionally, examine the role of technological innovation, such as the development of renewable energy technologies, in facilitating these countries' abilities to meet their commitments. What are the economic and environmental ramifications of potential shifts from fossil fuels to renewable energy sources in these regions?",
+            "instructions": "Instructions on how to deal with this question:\n1. Analyze the current energy policies of the United States, European Union, and China, noting any significant differences and similarities.\n2. Discuss how these policies align with the goals set forth in the Paris Agreement, and evaluate the effectiveness of these policies in achieving the stated targets.\n3. Explore the impact of technological advancements in renewable energy on the energy strategies of each region, and how these technologies could support or hinder their Paris Agreement commitments.\n4. Assess the economic consequences, including the potential for job creation or loss, as well as the environmental impacts of a transition to renewable energy sources in the United States, European Union, and China."
+        },
+        {
+            "question_id": 1,
+            "question": "Question:\nExplain the impact of the French Revolution on both the political landscape of Europe and the philosophy of enlightenment, detailing the key events and ideologies that played fundamental roles.",
+            "instructions": "Instructions on how to deal with this question:\n1. Provide a summary of the French Revolution, focusing on its timeline from 1789 to 1799.\n2. Discuss the ways in which the revolution influenced the political structures and ideologies in other European countries during and after the event.\n3. Analyze how the Enlightenment ideals were reflected in the revolution\u2019s objectives and outcomes, and how these ideals were subsequently adopted or adapted across Europe."
+        },
+        {
+            "question_id": 2,
+            "question": "Question:\nIn the context of merging quantum computing and classical computing frameworks for optimizing large-scale data processing systems, what specific algorithms or protocols could be designed to utilize the computational advantages of quantum computing in a predominantly classical environment? Additionally, how could these systems ensure the security and integrity of data during the computation process?",
+            "instructions": "Instructions on how to deal with this question:\n1. Identify and define key concepts involved, such as quantum computing, classical computing, and large-scale data processing systems.\n2. Describe potential algorithms or protocols that could effectively merge quantum and classical computing techniques.\n3. Outline methods to maintain data security and integrity in systems where quantum and classical computing elements coexist."
+        },
+        {
+            "question_id": 3,
+            "question": "Question:\nEstimate the total amount of CO2 emissions in metric tons produced by the transportation sector globally if on a given day, 10% fewer cars are driven than the average, 5% more ships are utilized than regular shipping operations, and the number of flights remains unchanged. Assume the current emissions from cars, ships, and airplanes on a regular day are 2.5 billion metric tons, 1.2 billion metric tons, and 900 million metric months respectively.",
+            "instructions": "Instructions how to deal with this question:\n1. Calculate the adjusted carbon emissions from cars by reducing their regular day emissions by 10%.\n2. Calculate the adjusted carbon emissions from ships by increasing their regular day emissions by 5%.\n3. Sum up the adjusted emissions from cars, the adjusted emissions from ships, and the current emissions from airplanes to get the total emissions for the specified day."
+        },
+        {
+            "question_id": 4,
+            "question": "Question:\nWhat would be the economic implications if a hypothetical country, which primarily exports oil and also has significant tourism, suddenly found a renewable, eco-friendly substitute that is cheaper and more efficient than oil? Consider the domestic effects on employment and GDP, and the international implications on trade balances and diplomatic relationships.",
+            "instructions": "Instructions how to deal with this question:\n1. Identify the key sectors affected by the shift from oil to a renewable substitute.\n2. Analyze the immediate and long-term economic impacts on the domestic market, including potential shifts in employment opportunities from traditional oil sectors to new industries.\n3. Evaluate the international economic implications, particularly changes in trade dynamics, and how diplomatic relations might be influenced by decreased dependency on oil exports."
+        },
+        {
+            "question_id": 5,
+            "question": "Question:\nWhat are the potential geopolitical implications of the increased use of artificial intelligence and autonomous weapons systems on global security norms, particularly in relation to the United Nations' regulations, and how might different states' approaches to technology adoption affect international power dynamics?",
+            "instructions": "Instructions on how to deal with this instance:\n1. Provide a detailed analysis of how increased AI and autonomous weapons usage could reshape international relations and conflict patterns.\n2. Discuss the potential responses of major global entities like the UN towards the regulation of such technologies.\n3. Analyze and speculate on the varying responses from leading nations with strong technological capabilities potentially creating shifts in geopolitical power."
+        },
+        {
+            "question_id": 6,
+            "question": "Question:\nCalculate the total environmental impact, measured in carbon emissions, of producing a cotton t-shirt from farm to retail, assuming the cotton is grown in India, manufactured into fabric in China, and the final product is sold in the United States. Consider the following:\n- The emissions from growing cotton, including pesticide and fertilizer use.\n- The emissions from transporting cotton from India to China.\n- The emissions associated with the manufacturing process in China, including energy use and waste management.\n- The emissions from shipping the final product to the United States.",
+            "instructions": "Instructions on how to deal with this question:\n1. Research and compile data for average emissions related to each step of the cotton t-shirt production process.\n2. Calculate or approximate the transportation emissions for cotton and final products based on typical distances and transport methods.\n3. Summarize the total estimated carbon emissions to measure environmental impact."
+        },
+        {
+            "question_id": 7,
+            "question": "Question:\nEvaluate the potential economic impacts if the interest rates rise by 2% in the next quarter, considering the current inflation rates, GDP growth, and employment statistics in the United States, United Kingdom, and Germany.",
+            "instructions": "Instructions on how to deal with this question:\n1. Analyze the current economic data including inflation rates, GDP growth, and employment statistics for the United States, United Kingdom, and Germany.\n2. Discuss the theoretical implications of a 2% increase in interest rates on the economies of these countries.\n3. Provide an in-depth analysis of possible sector-specific impacts (such as real estate, manufacturing, and services) and consumer behavior due to the interest rate rise.\n4. Conclude with a summary of potential global economic shifts that might occur as a result of these changes in the interest rates."
+        },
+        {
+            "question_id": 8,
+            "question": "Question: \nIn a hypothetical economic scenario where the gross domestic product (GDP) growth rate of a country unexpectedly drops by 2% annually, while its neighboring country's GDP grows by 3% annually, detail the potential macroeconomic consequences for both countries over a five-year period. Consider factors such as inflation rate, unemployment levels, exchange rate shifts, trade balances, and foreign investment flows.",
+            "instructions": "Instructions on how to deal with this question:\n1. Consider different economic theories and models to analyze the short-term and long-term impacts on both countries' economies.\n2. Use hypothetical data to provide numerical examples illustrating changes in key economic indicators.\n3. Discuss potential policy responses that each country's government could implement to stabilize their economy and promote growth."
+        },
+        {
+            "question_id": 9,
+            "question": "Question:\nConsider a small town where every resident knows each other directly or indirectly through others. At a specific annual town gathering, a statement is made that there are at least two people in the town who have the exact same number of friends within the town. Prove whether this statement is necessarily true and under what conditions it fails, if any.",
+            "instructions": "Instructions on how to deal with this question:\n1. Define what it means for two people to have the \"exact same number of friends\" in the context of an undirected graph where nodes represent residents and edges represent mutual direct friendships.\n2. Apply the concept of the Pigeonhole Principle and graph theory to argue the validity of the statement.\n3. Discuss potential exceptions or special scenarios where the typical interpretation of the statement might not hold (e.g., variations in the total number of people in the town, disconnected individuals, or peculiar friendship structures). Consider mathematical or logical bases for your arguments."
+        },
+        {
+            "question_id": 10,
+            "question": "Question:\nEvaluate the economic impact of implementing a universal basic income (UBI) in a mixed economy with a diverse demographic profile, considering varying levels of implementation (full-scale versus partial implementation) and different funding mechanisms (tax-funded versus debt-financed).",
+            "instructions": "Instructions on how to deal with this question:\n1. Define the concept of universal basic income and what constitutes a mixed economy.\n2. Analyze the implications of full-scale versus partial implementation of a UBI in contexts of economic disparity among different demographic groups.\n3. Discuss the economic effects of funding the UBI through increased taxes versus financing it through national debt, considering both short-term and long-term economic outcomes.\n4. Evaluate both the potential positive and negative societal impacts, including work incentives, poverty alleviation, and income inequality.\n5. Consider real-world examples or hypothetical case studies to illustrate your points and provide a well-rounded analysis."
+        },
+        {
+            "question_id": 11,
+            "question": "Question:\nWhat are the geopolitical implications of China's Belt and Road Initiative on its neighboring countries, particularly in terms of economic dependency and territorial disputes, and how could this affect the stability of global trade networks?",
+            "instructions": "Instructions on how to deal with this question:\n1. Provide an overview of the Belt and Road Initiative.\n2. Analyze the economic impact on the countries involved, especially focusing on economic dependency.\n3. Discuss potential or ongoing territorial disputes linked with this initiative.\n4. Examine the broader implications for global trade networks and international relations."
+        },
+        {
+            "question_id": 12,
+            "question": "Question:\nWhat are the economic implications of implementing a universal basic income (UBI) program across diverse socioeconomic landscapes, particularly in countries with significantly varying GDP per capita, such as the United States, India, and Sweden?",
+            "instructions": "Instructions on how to deal with this question:\n1. Analyze the concept of universal basic income and its fundamental economic theories.\n2. Discuss the potential economic outcomes of adopting a UBI program in high-income versus low-income countries, using the United States, India, and Sweden as case studies.\n3. Address the social and political challenges that might influence the implementation and success of UBI programs in these countries.\n4. Consider the long-term impacts on poverty reduction, employment rates, and wealth inequality.\n5. Conclude with predictions or recommendations for policy makers considering UBI as an economic strategy."
+        },
+        {
+            "question_id": 13,
+            "question": "Question:\nIf the population of a small island increases by 2% annually and the current population is 10,000, what will be the population in 10 years, assuming a constant growth rate? Additionally, suppose there is an introduction of a policy that reduces growth by 0.4% annually starting from the fifth year. Calculate the population at the end of 10 years under this new scenario.",
+            "instructions": "Instructions on how to deal with this question:\n1. Calculate the population at the end of each year for the first 10 years using the initial 2% growth rate.\n2. Calculate the population each year from the fifth year using the reduced growth rate of 1.6%.\n3. Compare the populations obtained from both scenarios at the end of 10 years to determine the effect of the policy change."
+        },
+        {
+            "question_id": 14,
+            "question": "Question:\nWhat are the economic and environmental impacts of transitioning from fossil fuels to renewable energy sources globally, considering the current technological, political, and geographical factors? Include a detailed analysis comparing at least three countries with diverse energy profiles.",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the current global reliance on fossil fuels and identify the predominant types of renewable energy sources being adopted.\n2. Conduct a comparative study on the economic effects of this transition, including the initial investment costs, long-term financial benefits, and potential economic drawbacks in the selected countries.\n3. Explore the environmental benefits and challenges associated with the shift to renewable energy, such as emission reduction, land use, and biodiversity impacts.\n4. Consider technological advancements in renewable energy and how they influence the feasibility and efficiency of energy transition.\n5. Evaluate the role of political will and governmental policies in facilitating or hindering the energy transition in each of the countries mentioned."
+        },
+        {
+            "question_id": 15,
+            "question": "Question:\nWhat are the environmental, economic, and social impacts of transitioning from fossil fuels to renewable energy sources globally, taking into account different stages of economic development among countries and the technological advancements in renewable energy over the last decade?",
+            "instructions": "Instructions on how to deal with this question:\n1. Provide an overview of the main types of renewable energy sources and their development in the past ten years.\n2. Analyze the environmental benefits and challenges associated with shifting from fossil fuels to renewable energies.\n3. Discuss the economic impacts, including costs, job creation, and the effect on fossil fuel-dependent communities.\n4. Evaluate the social implications, focusing on energy accessibility in underdeveloped, developing, and developed countries.\n5. Consider the role of government policies and international agreements in facilitating or hindering this transition."
+        },
+        {
+            "question_id": 16,
+            "question": "Question:\nIn 1956, the Suez Crisis involved multiple geopolitical entities and revolved around control of the Suez Canal, crucial for the transport of oil. Detail the roles of the following countries in this conflict: the United Kingdom, France, Israel, Egypt, and the United States. What were their motivations, actions taken, and the international response to these actions?",
+            "instructions": "Instructions on how to deal with this question:\n1. List each country individually and describe its specific role and objectives during the Suez Crisis.\n2. For each country, outline the actions they took during the crisis and the international or domestic factors influencing these actions.\n3. Conclude with the aftermath and international response to the Suez Crisis, especially the resolutions or reactions from the United Nations and other global powers."
+        },
+        {
+            "question_id": 17,
+            "question": "Question:\nIn a hypothetical scenario where the global financial markets have experienced a significant shift due to a fictional, sudden discovery of an abundant, revolutionary energy source 'Xenothium', analyze the potential economic impacts. Consider market trends in energy stocks, traditional energy sources like petroleum, and renewable energy. Provide a detailed examination of the ripple effects on associated industries such as automotive, technology, and manufacturing.",
+            "instructions": "Instructions how to deal with this question:\n1. Analyze the initial impact of Xenothium's discovery on global financial markets, focusing specifically on the energy sector.\n2. Discuss the potential long-term effects on both traditional and renewable energy market trends.\n3. Evaluate how industries like automotive, technology, and manufacturing might adapt or evolve in response to this newfound energy source.\n4. Suggest potential economic policies that governments might adopt to manage the shift in energy reliance and its broader economic implications."
+        },
+        {
+            "question_id": 18,
+            "question": "Question:\nIn the context of the global economy, how do varying minimum wage rates across countries impact international trade and labor migration? Consider the roles of technology transfer and cultural factors in your analysis.",
+            "instructions": "Instructions how to deal with this question:\n1. Define the key economic concepts involved, including minimum wage, international trade, and labor migration.\n2. Analyze the relationship between minimum wage disparities and international trade patterns, incorporating examples.\n3. Discuss the influence of technology and cultural factors on labor movement between countries with differing minimum wage levels.\n4. Use case studies or hypothetical scenarios to illustrate your points effectively."
+        },
+        {
+            "question_id": 19,
+            "question": "What is the capital of the country that has the largest proven oil reserves, the current political ideology of its government, and the name of its current head of state?",
+            "instructions": "Instructions how to deal with this question:\n1. Identify the country with the largest proven oil reserves.\n2. Name the capital city of this country.\n3. Describe the political ideology of the country's current government.\n4. Provide the name of the current head of state of this country."
+        },
+        {
+            "question_id": 20,
+            "question": "Question:\nConsider a hypothetical scenario where a new island emerges in the Pacific Ocean due to volcanic activity. This island is equidistant from three different countries: Country A, Country B, and Country C. Each of these countries has its own distinct political system, economic status, and environmental policies:\n- Country A is a democratic nation with a strong commitment to environmental conservation but has a struggling economy.\n- Country B is a totalitarian state with a robust economy, heavily reliant on fossil fuels.\n- Country C is a monarchy with moderate economic strength and average environmental policies.",
+            "instructions": "Given this context, analyze the potential geopolitical consequences if all three nations lay claim to this newly formed island."
+        },
+        {
+            "question_id": 21,
+            "question": "Question:\nGiven the upcoming budget revisions, how might changes in fiscal policy affect inflation rates in relation to both the short-term Phillips Curve and long-term expectations? Consider the role of the central bank\u2019s responses, the velocity of money, and potential shifts in aggregate demand and supply.",
+            "instructions": "Instructions how to deal with this question:\n1. Provide a brief overview of the Phillips Curve, distinguishing between the short-term and long-term curves.\n2. Discuss how fiscal policy adjustments can influence the economy\u2019s position on these curves with respect to inflation and unemployment rates.\n3. Analyze the actions the central bank might take in response to fiscal policy adjustments and project their impact on inflation forecasts.\n4. Embed the concept of the velocity of money into your analysis and elucidate how it may modify in response to the fiscal changes.\n5. Evaluate potential shifts in both aggregate demand and aggregate supply that could stem from the aforementioned fiscal policy adjustments, and record their probable influence on the long-term economic equilibrium."
+        },
+        {
+            "question_id": 22,
+            "question": "Question:\nWhat is the combined gross domestic product (GDP) of the three largest economies in Europe as of 2023, and how does that figure compare to the GDP of the United States in the same year? Additionally, identify the main industries in each of these European countries that significantly contribute to their GDP.",
+            "instructions": "Instructions how to deal with this question:\n1. Identify the three largest economies in Europe based on their GDP as of 2023.\n2. Calculate their combined GDP and compare this figure to the GDP of the United States for the same year.\n3. List the main industries for each of these European countries that are major contributors to their GDP."
+        },
+        {
+            "question_id": 23,
+            "question": "Question:\nYou are asked to calculate the total cost of construction for a circular patio with a radius of 7 meters, using concrete that costs $50 per square meter. Additionally, you need to account for labor costs which are 20% of the base materials cost. What is the total estimated cost for the construction of the patio?",
+            "instructions": "Instructions how to deal with this question:\n1. Use the formula for the area of a circle to calculate the area of the patio.\n2. Calculate the cost of the concrete based on the area and provided price per unit area.\n3. Calculate the labor costs as a percentage of the materials cost.\n4. Sum both the material and labor costs to obtain the total construction cost."
+        },
+        {
+            "question_id": 24,
+            "question": "Question:\nWhat are the implications of the withdrawal of U.S. troops from Afghanistan on the geopolitical landscape of Central Asia, specifically concerning the influence and strategies of other major powers such as Russia, China, and Iran?",
+            "instructions": "Instructions on how to deal with this question:\n1. Analyze the historical context of U.S. military involvement in Afghanistan.\n2. Discuss the strategic interests and political objectives of Russia, China, and Iran in Afghanistan and the broader Central Asian region post-U.S. withdrawal.\n3. Evaluate the potential shifts in diplomatic relations and security alliances in response to the new power dynamics in this area."
+        },
+        {
+            "question_id": 25,
+            "question": "Question:\nConsider a hypothetical scenario where a new technology called \"QuantumNet\" promises to revolutionize data encryption by using principles of quantum mechanics. However, there are concerns about its impact on digital privacy and the potential misuse by governments and corporations.",
+            "instructions": "Instructions how to deal with this question:\n1. Describe the technological basis of QuantumNet and how it utilizes quantum mechanics for data encryption.\n2. Discuss the potential advantages of QuantumNet over traditional encryption methods.\n3. Evaluate the ethical implications and privacy concerns associated with the deployment of QuantumNet in both public and private sectors.\n4. Propose guidelines or measures that could be implemented to regulate the use of QuantumNet technology to prevent misuse."
+        },
+        {
+            "question_id": 26,
+            "question": "Question:\nIn the field of complexity theory, can you explain the difference between the classes P, NP, NP-Complete, and NP-Hard, including their relation to each other? Furthermore, provide examples of problems belonging to each class and discuss the implications if P were equal to NP.",
+            "instructions": "Instructions on how to deal with this question:\n1. Define each of the four complexity classes clearly and thoroughly.\n2. Explain the relationship between these classes using diagrams if necessary.\n3. Give at least one example of a problem for each class and illustrate why they belong to these specific classes.\n4. Discuss the theoretical consequences in computer science and cryptography if it were proven that P = NP."
+        },
+        {
+            "question_id": 27,
+            "question": "Question:\nWhat would be the potential global economic impact in 2025 if the United States decided to adopt a completely isolationist policy starting today, ceased all international trade, and how would this decision affect the GDP growth rates of emerging markets, particularly focusing on Brazil, India, and China?",
+            "instructions": "Instructions on how to deal with this question:\n1. Evaluate the current economic relationships and trade dependencies between the United States and the mentioned emerging markets.\n2. Analyze historical data and precedent scenarios where major economies took isolationist approaches and project those outcomes onto the current global financial landscape.\n3. Utilize economic theories and models to forecast the GDP growth rates for Brazil, India, and China through 2025, considering the hypothesized U.S. isolationist stance."
+        },
+        {
+            "question_id": 28,
+            "question": "Question:\nIn a hypothetical scenario, imagine a small country named Templaria is undergoing an economic crisis. The GDP of Templaria has decreased by 5% annually for the past three years. In response, the government has implemented a new financial policy introducing a flat tax rate of 18%, reducing government spending by 20%, and imposing tariffs on imported goods set at 15%. Additionally, the central bank has decided to increase interest rates by 0.5%. Evaluate the potential effects of these measures on the economy of Templaria, considering inflation rates, unemployment, and foreign investment.",
+            "instructions": "Instructions on how to deal with this question:\n1. Analyze the impact of the new flat tax rate on different income groups and consumer spending.\n2. Discuss the probable consequences of the reduction in government spending on public services and infrastructure.\n3. Determine the potential effects of increased tariffs on import prices and how it might affect local consumers and businesses.\n4. Evaluate how the hike in interest rates may influence borrowing, spending, and overall economic activity.\n5. Provide an overall assessment on whether these measures will help stabilize Templaria\u2019s economy or lead to further economic downturns."
+        },
+        {
+            "question_id": 29,
+            "question": "Question: \nIf a variable star's light curve has a period of 5 days, reaching a maximum brightness of magnitude 10 and a minimum of magnitude 12, calculate the average magnitude over one period, considering the star's light output varies sinusoidally. Given the eccentricity of an orbiting exoplanet is 0.3, calculate the planet's angular position when it is at its perihelion, comparing it to the major axis. Additionally, if the distance from the star at this point is 10 million kilometers, what would be the distance at aphelion?",
+            "instructions": "Instructions how to deal with this question:\n1. Begin by understanding the cyclic nature of a sinusoidal function representing the light output of a variable star, integrating it over one period to find the average magnitude.\n2. Compute the true anomaly for an orbiting body with an eccentricity of 0.3 at perihelion using Kepler's Laws or relevant astronomical formulae.\n3. Employ the relationship between a planet\u2019s perihelion and aphelion distances and its eccentricity to determine the distance at aphelion from the star."
+        }
+    ]
+}
